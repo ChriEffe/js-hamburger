@@ -8,11 +8,11 @@ const show = document.querySelector('.fa-bars');
 const hidden = document.querySelector('.fa-times');
 
 // Collego classe css per visualizzare menù
-show.addEventListener('click', function(){
+show.addEventListener('click', function () {
     menu.classList.add('active');
 })
 
 // Chiudo visualizzazione menù
-hidden.addEventListener('click', function(){
+hidden.addEventListener('click', function () {
     menu.classList.remove('active');
 })
