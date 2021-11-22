@@ -1,11 +1,11 @@
 // Seleziono div hamburger-menu
-const menu = document.querySelector('div:last-child');
+const menu = document.querySelector('.hamburger-menu');
 
-// Selezino elemento da attivare
-const show = document.querySelector('.fa-bars');
+// Seleziono elemento da attivare
+const show = document.querySelector('.header-right a i');
 
 // Chiudo menù
-const hidden = document.querySelector('.fa-times');
+const hidden = document.querySelector('.close i');
 
 // Collego classe css per visualizzare menù
 show.addEventListener('click', function () {
